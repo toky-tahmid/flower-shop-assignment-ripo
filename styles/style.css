@@ -162,28 +162,37 @@ body {
     width: 170px;
     margin-right: 250px;
 }
+.flowers-types{
+    text-align: center;
+}
+.flower-types{   
+    height: 280px;
+    width: 250px;   
+}
+.last-banner-sec{
+    margin-top: 70px;
+    width: 1000px;
+    height: 300px;
+    background: rgba(90, 88, 88, 0.05);
+    margin-left: 250px;
+    border-radius: 8px;
+    text-align: center;
+    
+    background-image: url(../images/Rectangle\ 9.png);
+    color: white;
+}
+.last-banner-disc{
+    align-items: center;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #footer-title {
+#footer-title { 
+    
     color: #E55473;
 }
 
 .footer-container {
+    height: 300px;
     text-align: center;
     background: #111010;
     color: white;
@@ -192,15 +201,14 @@ body {
 
 .footer-disc {
     color: rgba(255, 255, 255, 0.90);
-
     font-size: 15px;
-
     font-weight: 400;
     line-height: 20px;
+    margin-top: 30px;
 }
 
 .footer-copy {
     color: rgba(255, 255, 255, 0.40);
     font-size: 13px;
     font-weight: 400
-} */
+} 
