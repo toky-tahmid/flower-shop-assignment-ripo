@@ -1,0 +1,58 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.flower-shop-Banner {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+}
+
+.flower-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    font-weight: bolder;
+}
+
+.banner-info {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -22px;
+}
+
+.banner-flower {
+    height: 400px;
+    width: 350px;
+    margin-top: 10px;
+}
+
+.Shopping-btn {
+    padding: 12px;
+    width: 20%;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+}
+.flower-main-part {
+    text-align: center;
+}
+
+/* .flowers-presentation {
+    width: 180px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    
+} */
