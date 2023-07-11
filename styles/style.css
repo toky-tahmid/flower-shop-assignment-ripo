@@ -1,34 +1,27 @@
-html,
-body {
+html,body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
 }
-
 body {
     font-family: 'Lato', sans-serif;
 }
-
 .flower-shop-Banner {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-around;
     height: 500px;
-
 }
-
 .flower-shop-info {
     margin-left: 150px;
 }
-
 .flower-title {
     color: #272727;
     font-size: 50px;
     font-weight: 800;
     font-weight: bolder;
 }
-
 .banner-info {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -36,14 +29,12 @@ body {
     margin-top: -22px;
     width: 450px;
 }
-
 .banner-flower {
     height: 490px;
     width: 390px;
     margin-top: 10px;
     margin-right: 150px;
 }
-
 .Shopping-btn {
     padding: 12px;
     width: 25%;
@@ -52,34 +43,27 @@ body {
     border: none;
     color: white;
 }
-
 .flower-main-part {
     text-align: center;
     margin-top: 100px;
 
 }
-
 .mid-title {
     color: #272727;
     font-size: 30px;
     font-weight: 1000;
     font-weight: bolder;
 }
-
 .main-disc {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 200;
-
-
 }
-
 .flowers-presentation {
     display: flex;
     gap: 15px;
     margin-left: 380px;
 }
-
 .flowers {
     width: 250px;
     height: 300px;
@@ -87,18 +71,17 @@ body {
     background: rgba(167, 33, 98, 0.15);
 
 }
-
 .icon {
     height: 250px;
     margin-top: 30px;
+    margin-bottom: 10px;
 }
-
 .icons para {
+
     color: #272727;
     font-size: 19px;
     font-weight: 700;
 }
-
 .services-provide {
     margin-top: 100px;
     width: 800px;
@@ -112,7 +95,6 @@ body {
     gap: -100px;
 
 }
-
 .optional-icon {
     margin-left: 80px;
     margin-right: 80px;
@@ -120,7 +102,6 @@ body {
     width: 50px;
 
 }
-
 .op-disc {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
@@ -128,7 +109,6 @@ body {
     font-weight: 600;
     line-height: 20px;
 }
-
 .hot-deal-banner {
     margin-top: 100px;
     width: 1497px;
@@ -139,16 +119,16 @@ body {
     align-items: center;
 
 }
-.hot-deal-info{
+.hot-deal-info {
     text-align: center;
     width: 400px;
     margin-left: 200px;
 
 }
-#off{
+#off {
     color: #E55473;
 }
-.Shopping-btn-hot{
+.Shopping-btn-hot {
     padding: 12px;
     width: 25%;
     border-radius: 8px;
@@ -157,19 +137,19 @@ body {
     color: white;
 
 }
-.hot-deal-flower{
+.hot-deal-flower {
     height: 230px;
     width: 170px;
     margin-right: 250px;
 }
-.flowers-types{
+.flowers-types {
     text-align: center;
 }
-.flower-types{   
+.flower-types {
     height: 280px;
-    width: 250px;   
+    width: 250px;
 }
-.last-banner-sec{
+.last-banner-sec {
     margin-top: 70px;
     width: 1000px;
     height: 300px;
@@ -177,38 +157,61 @@ body {
     margin-left: 250px;
     border-radius: 8px;
     text-align: center;
-    
     background-image: url(../images/Rectangle\ 9.png);
-    color: white;
-}
-.last-banner-disc{
+    color: black;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
+.last-banner-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 10px;
+}
+.last-banner-disc {
+    margin-left: 310px;
+    gap: 15px;
+}
+.email {
+    padding: 9px;
+    width: 290px;
+}
+.Subscribe-btn {
+    padding: 10px;
+    width: 22%;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+    margin-right: 300px;
+    margin-top: 97px;
+}
+#footer-title {
 
-
-#footer-title { 
-    
     color: #E55473;
 }
-
 .footer-container {
     height: 300px;
     text-align: center;
     background: #111010;
     color: white;
-
+    margin-top: 100px;
 }
-
+.footer-main{
+    padding: 40px;
+   margin-top: 50px;
+}
 .footer-disc {
     color: rgba(255, 255, 255, 0.90);
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
-
 .footer-copy {
     color: rgba(255, 255, 255, 0.40);
     font-size: 13px;
     font-weight: 400
-} 
+}
